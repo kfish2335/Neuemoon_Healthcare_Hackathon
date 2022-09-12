@@ -1,0 +1,40 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+}
+.scrollerInput{
+  width: 10%;
+  height: 10%;
+}
+.font_Question {
+  color: Black;
+
+}
+.sub_font_Question {
+  color: Black;
+  margin-right: 50px;
+
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
